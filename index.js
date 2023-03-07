@@ -14,5 +14,6 @@ server.on("request", (request, response) => {
 // get the server to start listening
 server.listen(PORT, err => {
   // error checking
+  
   err ? console.error(err) : console.log(`listening on port ${PORT}`)
 })
